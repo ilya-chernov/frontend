@@ -32,6 +32,10 @@ body {
     font-size: 14px;
 }
 
+.nav a:hover {
+    color: #8C30F5;
+}
+
 .nav a:last-child {
     margin-right: 0;
 }
