@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9FA;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    line-height: 1.43;
+}
+.nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+.nav a:last-child {
+    margin-right: 0;
+}
+
+.logo {
+    margin-right: 38px;
+    display: flex;
+    align-items: center;
+}
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+
+.appstore img:first-child {
+    margin-right: 20px;
+}
