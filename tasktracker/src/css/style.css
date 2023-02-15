@@ -10,7 +10,8 @@ body {
 .header {
     display: flex;
     align-items: center;
-    height: 73px;
+    min-height: 73px;
+    height: 10vh;
     border-bottom: 1px solid #E5E9FA;
 }
 
@@ -52,4 +53,106 @@ body {
 
 .appstore img:first-child {
     margin-right: 20px;
+}
+
+/* Мейн */
+
+.main {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-content p {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.main-content {
+    height: max-content;
+}
+
+.main-header {
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.main-img {
+
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #8C30F5;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+/* footer */
+
+.footer-container {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 1110px;
+    color: white;
+    display: flex;
+}
+
+.footer-container p {
+   display:inline-block;
+}
+
+.footer {
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.social-media-icons {
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+}
+
+.sm-icon {
+    border-radius: 80%;
+    background-color: rgb(79, 79, 79);
+    padding: 5px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.sm-icon:last-child {
+    margin-right: 0px;
+}
+
+/*Responsive Design */
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        width: 600px;
+    }
+
 }
