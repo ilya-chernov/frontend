@@ -1,0 +1,91 @@
+body {
+   font-family: 'Wix Madefor Display', sans-serif;
+    color: white;
+    background-color: #6862f1;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.sidebar li {
+    list-style: none;
+}
+
+
+.sidebar ul {
+    padding: 0;
+}
+
+
+.image {
+    margin-right: 30px;
+
+}
+
+.welcm {
+    opacity: 0.3;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.text ul {
+    margin: 0;
+    padding: 0;
+}
+
+.text li {
+    list-style: none;
+    margin-bottom: 30px;
+    transition: 0.5s;
+
+}
+
+
+.text li:hover {
+    text-decoration: underline;
+}
+
+.text li img {
+    margin-right: 2px;
+    margin-bottom: -5px;
+    align-items: center;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+.image img {
+
+}
+
+.modal { 
+    display: flex;
+}
+
+.mainframe {
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .modal {
+        flex-direction: column;
+    }
+}
