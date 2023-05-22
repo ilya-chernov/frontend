@@ -295,10 +295,11 @@ h2 {
 }
 
 .video-about-us {
-    background-image: url('../media/hero-small.png');
+   
     background-repeat: no-repeat;
     background-size:contain;
     padding-bottom: 85px;
+    background-image: url('../media/hero-small.png');
 }
 
 .vau-header {
