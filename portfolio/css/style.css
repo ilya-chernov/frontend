@@ -30,6 +30,20 @@ p {
     margin-top: 80px;
 }
 
+.news-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.news-header p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
 .header-image {
     margin-right: 40px;
 }
@@ -72,8 +86,11 @@ p {
 }
 
 .buttons {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 94px;
+    flex-wrap: wrap;
     
 }
 
@@ -194,6 +211,53 @@ footer {
     margin-right: 20px;
 }
 
+
+.news-section {
+
+}
+
+.news-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-section-item {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+
+.news-section-item-image img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.news-section-item-text {
+    padding: 20px;
+}
+
+
+.article-head {
+   text-align: center;
+   margin-top: 80px;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+
+
+.text-container p {
+    margin-bottom: 40px;
+}
+
+.image-container img {
+    margin-top: 40px;
+    max-width: 100%;
+}
+
 @media screen and (max-width: 750px) {
     .header {
         flex-direction: column;
@@ -271,5 +335,67 @@ footer {
 
     .stack-item {
         margin-bottom: 20px;
+    }
+
+    .news-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-socials a:last-child {
+        margin-right: 0px;
+    }
+
+    .news-header {
+        padding: 20px;
+    }
+
+
+    .news-section-item-image img {
+        width: 100%;
+    }
+
+    .news-section-item {
+        padding: 20px;
+    }
+
+    .news-section {
+        padding: 20px;
+    }
+
+    .text-container p {
+        font-size: 18px;
+        
+    }
+
+    .text-container {
+        padding: 15px;
+        margin-top: 40px;
+        max-width: 760px;
+
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .btn {
+       margin-bottom: 10px;
+       width: 50%;
+        
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .btn:last-child {
+        margin-right: 17px;
+    }
+
+    .switch {
+     
     }
 }
